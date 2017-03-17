@@ -7,7 +7,7 @@ import alluxio.client.file.FileInStream;
 import alluxio.client.file.FileSystem;
 import alluxio.exception.AlluxioException;
 
-public class AlluxioReadFile001 {
+public class AlluxioReadFile001 {   
     public static void main(String[] args) {
 
         //1.获取文件系统FileSystem
