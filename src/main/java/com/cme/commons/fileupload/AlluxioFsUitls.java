@@ -26,7 +26,7 @@ public class AlluxioFsUitls {
 	public static void mount(String alluxioFilePath, String underFileSystemPath) {
 		// 1.创建文件路径 AlluxioURI
 		AlluxioURI apath = new AlluxioURI(alluxioFilePath);
-		AlluxioURI upath = new AlluxioURI(alluxioFilePath);
+		AlluxioURI upath = new AlluxioURI(underFileSystemPath);
 		try {
 			// 2.添加挂载点
 			if (!fs.exists(apath)) {

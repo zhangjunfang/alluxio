@@ -17,6 +17,13 @@
 			<artifactId>alluxio-core-client</artifactId>
 			<version>1.4.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.alluxio/alluxio-keyvalue-client -->
+		<dependency>
+			<groupId>org.alluxio</groupId>
+			<artifactId>alluxio-keyvalue-client</artifactId>
+			<version>1.4.0</version>
+		</dependency>
+
 		<!-- file end -->
 	</dependencies>
 	<build>

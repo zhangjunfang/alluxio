@@ -13,7 +13,7 @@ public class AlluxioReadFile001 {
 		// 1.获取文件系统FileSystem
 		FileSystem fs = FileSystem.Factory.get();
 		// 2.创建文件路径 AlluxioURI
-		AlluxioURI path = new AlluxioURI("/default_tests_files/");
+		AlluxioURI path = new AlluxioURI("/files/writetest001.txt");
 		FileInStream in = null;
 		try {
 			// 3.打开文件输入流

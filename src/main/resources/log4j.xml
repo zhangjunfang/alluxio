@@ -5,7 +5,7 @@
 		<param name="Target" value="System.out" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern"
-				value="[hihsoft_framework] %-d{yyyy-MM-dd HH:mm:ss} %p [%t] %c{1}.%M(%L) | %m%n" />
+				value="%p %c %l  [%t]  %-d{yyyy-MM-dd HH:mm:ss}  %c{1}.%M(%L) | %m%n" />
 		</layout>
 	</appender>
 
