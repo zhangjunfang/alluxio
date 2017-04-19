@@ -120,7 +120,7 @@ public class AlluxioKvUtils {
 	 *            KVStore路径
 	 */
 	public static void write(String storePath, String key, String value, String charSet) {
-		Map<String, String> map = new HashMap<>();
+		Map<String, String> map = new HashMap<String, String>();
 		map.put(key, value);
 		write(storePath, map, charSet);
 	}
